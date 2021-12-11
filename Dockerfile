@@ -3,5 +3,4 @@
 
 FROM jupyter/scipy-notebook
 
-RUN conda install --quiet -- yes\ 
-  'simplejson==3.17.6'
+RUN conda install -c anaconda altair==4.1.* --y
